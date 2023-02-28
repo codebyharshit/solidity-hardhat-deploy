@@ -4,7 +4,8 @@ const { ethers } = require("hardhat");
 describe("NFT", function () {
   let nft, owner;
 
-  const baseURI = "ipfs://bafybeieyetlp2c2vubffzjjap7utuz5jwo2k5b5kupvezfchc5tnfg4fh4/";
+  const baseURI =
+    "ipfs://bafybeieyetlp2c2vubffzjjap7utuz5jwo2k5b5kupvezfchc5tnfg4fh4/";
   const maxLimitMint = 100;
   const maxSupply = 1000;
   const mintRate = ethers.utils.parseEther("0.1");
@@ -76,7 +77,7 @@ describe("NFT", function () {
   //     expect(await nft.totalSupply()).to.equal(0);
   //   });
 
-    describe("burn", function () {
+  describe("burn", function () {
     it("should not allow non-owners to burn tokens", async function () {
       const tokenId = 1;
       await nft.mint(1, { value: mintRate });
@@ -149,6 +150,3 @@ describe("NFT", function () {
     });
   });
 });
-
-
-
