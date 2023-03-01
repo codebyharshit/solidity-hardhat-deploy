@@ -23,7 +23,7 @@ Create a NFT Minting Contract based in ERC721A Contract.
 - Once the owner burns the tokens these tokens will be removed from the total supply.
 - Apply NetSpec Commenting in the contract while writing.
 
-- Other Task
+ Other Task
 
 - Deploy the contract using hardhat deployment script on Polygon Network.
 - Write test cases using chai and mocha (testing libraries) to test the vulnerabilities in the contract. 
