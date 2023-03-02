@@ -86,7 +86,7 @@ npx hardhat compile
 ```
 
 
-Run npx hardhat run scripts/NFTContractDeployScript.js --network Mumbai which is Polygon Testnet to deploy contracts on network goerli.
+Run npx hardhat run scripts/NFTContractDeployScript.js --network Mumbai which is Polygon Testnet to deploy contracts.
 
 ```
 
