@@ -1,8 +1,12 @@
+/** @type import('hardhat/config').HardhatUserConfig */
+
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomiclabs/hardhat-etherscan");
+require('@openzeppelin/hardhat-upgrades');
+// require('@erc721a-upgradeable');
 require("solidity-coverage");
 
-require('dotenv').config();
+require("dotenv").config();
 
 const privateKey = process.env.PRIVATE_KEY;
 const alchemyProjectId = process.env.ALCHEMY_PROJECT_ID;
@@ -18,8 +22,10 @@ module.exports = {
       accounts: [privateKey]
     }
   },
+
   etherscan: {
     apiKey: {
       polygonMumbai:explorerApiKey}
   }
+
 };
