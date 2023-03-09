@@ -5,7 +5,7 @@
 - [Tasks Included](#tasks-included)
 - [Technologies Included](#technologies-included)
 - [Install and run](#install-and-run)
-- [Hardhat Setup](#hardhat-setup)
+- [Hardhat Setup](#hardhat-setup-and-deploy)
 
 
 ## Task Description
@@ -120,7 +120,7 @@ Run npx hardhat run scripts/verify.js --network Mumbai to verify the deployed co
 
 
 ```
-npx hardhat run scripts/verify.js --network Mumbai
+npx hardhat verify <contract Address> --network Mumbai
 ```
 
 
