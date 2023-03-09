@@ -11,16 +11,11 @@
 ## Task Description
 
 
-Create a Fully Working Wallet Based on Nodejs.
-
+Create a Smart Contract on Solidity to mint NFT and deploy it on Polugon Using Hardhat environment.
 
 ## Tasks Included
 
 
-- Maintain User session with JWT token
-- Send Email Verification Mail to User on Signup
-- Login with Password
-- Give Fake Balance on User Signup
 - Manage ERC20 tokens Transfer Functionality between Users
 - Show Transaction Details (Admin/User View)
 - Send Transaction Success/Failure Details to User on Email
