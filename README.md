@@ -114,9 +114,7 @@ npx hardhat run scripts/NFTUpgradableDeployScripts.js --network Mumbai
 
 Once you Deploy the contract the terminal will through an Proxy contract address which is deployed on the Polygon testnet.
 
-You can now verify the contract on the polygon testnet by using the below command.
-
-Run npx hardhat run scripts/verify.js --network Mumbai to verify the deployed contracts on netwrok Polygon.
+You can now verify the contract on the polygon testnet by using the below command to get the verified status and also get the implementation contract address.
 
 
 ```
